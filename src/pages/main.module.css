@@ -1,0 +1,349 @@
+@media (max-width: 400) {
+    body {
+      font-size: 2px;
+    }
+  }
+
+.header {
+  padding: 0rem;
+  position: sticky;
+  top: 0px;
+  justify-content: center;
+  width: 100vw;
+  height: 5rem;
+  background-color: #343333; 
+  order: 0;
+  border-style: solid;
+  border-color: #343333 #343333 #535353 #343333; 
+}
+.buttonBgColor {
+  background-color: #343333;
+}
+.buttonBgColor:hover {
+  background-color: #292929;
+}
+.buttonNoHover {
+  display: flex;
+  position: relative;
+  background-color: #292929 ;
+  flex-direction: row;
+  font-variant: small-caps;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem ;
+  color: rgba(140, 140, 140, 0.71);
+  /* border: 0.5px solid  rgba(140, 140, 140, 0.71); */
+  width: 4rem;
+  height: 1.8rem;
+  text-align: center;
+}
+.buttonStyle {
+  display: flex;
+  position: relative;
+  background-color: #343333 ;
+  flex-direction: row;
+  font-variant: small-caps;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem ;
+  color: rgba(140, 140, 140, 0.71);
+  /* border: 0.5px solid  rgba(140, 140, 140, 0.71); */
+  width: 4rem;
+  height: 1.8rem;
+  text-align: center;
+}
+.buttonStyle:hover {
+  background-color: #292929;
+}
+.buttonStyleFilter {
+  display: flex;
+  position: relative;
+  background-color: #292929 ;
+  flex-direction: row;
+  font-variant: small-caps;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem ;
+  color: rgba(140, 140, 140, 0.71);
+  /* border: 0.5px solid  rgba(140, 140, 140, 0.71); */
+  width: 4rem;
+  height: 1.8rem;
+  text-align: center;
+}
+.buttonStyleFilter:hover {
+  background-color: #585858;
+}
+
+
+
+.navLink {
+  color: rgb(228, 228, 228) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-inline-start: 0px;
+}
+
+.navLink a {
+  text-decoration: none;
+  color: var(--color-primary-400);
+}
+
+.navLink a:hover {
+  color: rgb(184, 168, 113);
+}
+
+.navLink a.active {
+  color: rgb(210, 210, 161);
+  text-decoration: none;
+}
+
+.mySection {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0rem 1rem 0rem 1rem;
+}
+.sectionHome {
+  display: flex;
+  /* background-color: aquamarine; */
+  flex-direction: column;
+  position: relative;
+  left: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .mySection {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+  .sectionHome {
+    left: 0rem;
+  }
+}
+
+.indentPub {
+  display: flex;
+  margin-left: 2.2rem ;
+  text-indent: -2.2rem ;
+}
+@media (max-width: 500px) {
+  .indentPub {
+    display: flex;
+    margin-left: 2rem ;
+    text-indent: -2rem ;
+  }
+}
+
+
+.mySection:hover {
+  background-color: #292929 !important; 
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0rem 0rem 0rem 0rem;
+  background-color: #292929;
+}
+
+.sectionContent:hover {
+  background-color: #292929;
+}
+
+.pageContainer {
+  display: flex;
+  width: 35rem;
+  flex-direction: column;
+}
+
+.myLink {
+  text-decoration: none; 
+}
+
+.myLink:link {
+  text-decoration: none;
+}
+
+.myLink:visited {
+  text-decoration: none; 
+  
+}
+
+.myLink:hover {
+  color: #d1d1d1;
+  text-decoration: none; 
+}
+
+.myLink:active {
+  text-decoration: none; 
+}
+
+.mobile {
+  display: 'flex';
+}
+
+@media (max-width: 500px) {
+  .mobile {
+    font-size: 8px;
+  }
+}
+
+.abstractPub {
+  display: flex;
+  padding: 0em;
+  position: relative;
+  color: #dddcdc;
+  top: 2em;
+  width: 130%;
+  font-size: 14px;
+  text-align: justify;
+  flex-direction: row;
+  line-height: 1.2em;
+  justify-content: flex-end;
+  background-color: #292929;
+}
+
+@media (max-width: 400px) {
+  .abstractPub {
+    font-size: 14px;
+    margin-left: 0vw;
+    line-height: 125%;
+    width: 150%;
+    overflow: visible;
+  }
+}
+
+.pubBar {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between;
+  width: 90vw;
+  max-width: 30rem;
+  /* min-width: 20rem; */
+}
+@media (max-width: 400px) {
+
+}
+
+.searchBar {
+  display: flex; 
+  position: relative;
+  flex-direction: row; 
+  width: 90vw;
+  max-width: 30rem;
+  min-width: 20rem;    
+}
+@media (max-width: 500px) {
+  .searchBar { 
+    display: flex; 
+    position: relative;
+    width: 90vw;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    /* max-width: 30rem;
+    min-width: 20rem;     */
+  }
+
+}
+
+
+.homePage {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .homePage {
+    display: flex;
+    /* background-color: darkgoldenrod; */
+    width: 95%;
+  }
+}
+
+.pubDetailsMobilePub {
+  margin: 0rem;
+  line-height: 22px;
+  width: 100%;
+}
+
+@media (max-width: 500px) {
+  .pubDetailsMobilePub {
+    line-height: 140%;
+    width: 120%;
+    margin-right: -4vw;
+    margin-left: -2vw;
+  }
+}
+
+
+.pubDetailsMobileHome {
+  margin: 0em;
+  line-height: 22px;
+  width: 115%;
+  padding: 0rem 1rem 0rem 0rem;
+}
+
+@media (max-width: 500px) {
+  .pubDetailsMobileHome {
+    line-height: 120%;
+    width: 135%;
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+}
+
+.abstractHome {
+  display: flex;
+  padding: 0rem 2rem 0rem 0rem;
+  position: relative;
+  top: 2em;
+  width: 100%;
+  font-size: 14px;
+  text-align: justify;
+  flex-direction: row;
+  line-height: 1.2em;
+  justify-content: flex-end;
+  background-color: #292929;
+}
+
+@media (max-width: 500px) {
+  .abstractHome {
+    font-size: 14px;
+    line-height: 125%;
+    width: 100%;
+    text-align: justify;
+    padding: 0rem 0.7rem 0rem 0rem;
+  }
+}
+
+.expandCollapseBarHome {
+  display: flex; 
+  position: relative;
+  flex-direction: row; 
+  justify-content: flex-end;
+  width: 90vw;
+  max-width: 30rem;
+  min-width: 20rem;
+  left: 2rem;
+}
+@media (max-width: 500px) {
+  .expandCollapseBarHome {
+    left: 0rem;
+  }
+
+}
+  
+     
+
+
+
+
